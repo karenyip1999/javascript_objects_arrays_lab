@@ -54,3 +54,13 @@ northernIrelandKeys = null;
 /**
  * Q4. Use an if statement to compare the population of Scotland to the population of Wales, and say which is bigger.
  */
+populationOfScotland = unitedKingdom[0].population;
+populationOfWales = unitedKingdom[2].population;
+
+if (populationOfScotland > populationOfWales)
+{
+  console.log("The population of Scotland is bigger than Wales");
+}
+else {
+  console.log("The population of Wales is bigger than Scotland");
+}
