@@ -73,10 +73,18 @@ console.log(stations);
  * Q8.
  * Is Durham one of the stops?
  */
-
-stoppingAtDurham = null;
-
-// console.log(stoppingAtDurham);
+for (let i = 0; i < stations.length; i++)
+{
+    if (stations[i] == "Durham")
+    {
+        stoppingAtDurham = true;
+        break;
+    }
+    else {
+        stoppingAtDurham = false;
+    }
+}
+console.log(stoppingAtDurham);
 
 
 /**
