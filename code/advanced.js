@@ -40,9 +40,8 @@ console.log(england);
  * Q2. Change the capital of Wales to "Cardiff"
  */
 
-wales = null;
-
-// console.log(wales);
+wales = unitedKingdom[2].capital = "Cardiff";
+console.log(wales);
 
 /**
  * Q3. Find a method in the documentation which will give you all of the available keys for Northern Ireland
