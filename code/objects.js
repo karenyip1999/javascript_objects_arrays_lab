@@ -55,9 +55,14 @@ console.log("The dog has " + dogColourCount + " different colours");
  * Q5. I've just bought a 12-year-old African Grey parrot called Lucky. Create an object for her.
  */
 
-parrot = null;
+parrot = {
+  name : "Lucky",
+  age : 12, 
+  breed : "African",
+  colours : "grey"
+};
 
-// console.log(parrot);
+console.log(parrot);
 
 /**
  * Q6. Ella's favourite food is dandelion, add this information to her object
