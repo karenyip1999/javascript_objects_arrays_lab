@@ -18,8 +18,8 @@ console.log(stations);
  * Q2.
  * It doesn't go as far as Dundee either, so remove it from the start of the array.
  */
-
-// console.log(stations);
+stations.shift("Dundee");
+console.log(stations);
 
 
 
