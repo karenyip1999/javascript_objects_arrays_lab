@@ -1,5 +1,6 @@
 /**
- * In these tasks you will need to manipulate the array below in order to answer the questions. Some answers will require you to store the result in a variable, others will need you to inspect the whole array.
+ * In these tasks you will need to manipulate the array below in order to answer the questions. 
+ * Some answers will require you to store the result in a variable, others will need you to inspect the whole array.
  */
 
 stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds", "Doncaster", "Peterborough"];
@@ -8,8 +9,8 @@ stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds"
  * Q1.
  * The East Coast Main Line doesn't stop at Peterborough! Add London Kings Cross to the end of the array to complete the line.
  */
-
-// console.log(stations);
+stations.push("London Kings Cross");
+console.log(stations);
 
 
 
