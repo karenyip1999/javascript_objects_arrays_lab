@@ -47,9 +47,9 @@ console.log(wales);
  * Q3. Find a method in the documentation which will give you all of the available keys for Northern Ireland
  */
 
-northernIrelandKeys = null;
-
-// console.log(northernIrelandKeys);
+northernIreland = unitedKingdom[3];
+northernIrelandKeys = Object.keys(northernIreland);
+console.log(northernIrelandKeys);
 
 /**
  * Q4. Use an if statement to compare the population of Scotland to the population of Wales, and say which is bigger.
